@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  overflow-x:hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 10px;
+  background-color: #fa4242;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+.menu{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+menu p{
+  margin: 10px;
+}
+
+
+
+.banner {
+  height: 30vw;
+  background-image: url(img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cartao {
+  margin: 15px;
+  width: 10%;
+  border: 0.5px solid lightgray;
+  border-radius: 10px;
+  box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.cartao img {
+  width: 100%;
+}
+
